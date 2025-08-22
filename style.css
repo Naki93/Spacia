@@ -228,7 +228,7 @@ input {
 
   .adjustable-box {
     width: 40%; /* wider on small screens */
-
+    text-align: center;
     box-sizing: border-box; /* ensures padding doesn’t break width */
   }
 
