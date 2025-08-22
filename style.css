@@ -237,8 +237,11 @@ input {
     margin: 0 auto;
   }
 
-  input #padding {
-    cursor: pointer;
+  input[type="range"] {
+    height: 6px;
+    background: #1a1d24; /* <-- track color */
+    border-radius: 5px;
+    outline: none;
   }
 }
 
@@ -254,6 +257,7 @@ input {
   }
   input[type="range"] {
     width: 100%; /* so it fits mobile screen */
+    background: #1a1d24;
   }
 
   input[type="range"]::-webkit-slider-thumb {
