@@ -143,9 +143,11 @@ img {
   position: relative;
 }
 
-input(
+input {
   background-color: #32404f95;
-) .red {
+}
+
+.red {
   color: coral;
   font-family: "Geist", monospace;
   font-weight: 300;
@@ -205,7 +207,7 @@ input(
     flex-direction: column;
   }
   .info {
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 20px;
     display: block;
   }
