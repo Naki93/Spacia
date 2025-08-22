@@ -25,7 +25,7 @@ h1 {
 }
 
 .spacing {
-  text-decoration: underline;
+  text-decoration: none;
   font-style: italic;
   color: #1a1d24;
 }
@@ -80,7 +80,7 @@ ul {
 div.adjustable-box {
   width: 250px;
   margin: 3%;
-
+  /* max-width: 400px; */
   border: 1px solid #1d2c3d;
   border-radius: 10px;
   text-align: center;
