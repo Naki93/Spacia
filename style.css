@@ -245,6 +245,14 @@ input {
     border-radius: 5px;
     outline: none;
   }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: coral;
+  }
 }
 
 @media (min-width: 901px) {
@@ -272,6 +280,7 @@ input {
     appearance: none;
     width: 25px;
     height: 25px;
+    border-radius: 50%;
     background-color: coral;
   }
 }
