@@ -268,7 +268,10 @@ input {
   }
 
   input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
     width: 25px;
     height: 25px;
+    background-color: coral;
   }
 }

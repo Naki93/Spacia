@@ -16,6 +16,8 @@ Since I'm also into design, this was a fun way to combine both learning and crea
 One of the main challenges I faced was making it **mobile responsive**.  
 At first, increasing the margin caused overflow issues on smaller screens, but I learned how to fix that with media queries and better sizing.
 
+Another challenge was customizing the look of the sliders. By default, they showed up in a light blue color in the browser, and I had to figure out how to style both the track and the thumb using special CSS pseudo-elements
+
 ### How to Use
 
 1. Open the app in your browser.
