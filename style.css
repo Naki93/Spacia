@@ -238,8 +238,10 @@ input {
   }
 
   input[type="range"] {
+    -webkit-appearance: none; /* remove default */
+    appearance: none;
     height: 6px;
-    background: #1a1d24; /* <-- track color */
+    background-color: #1a1d24; /* <-- track color */
     border-radius: 5px;
     outline: none;
   }
@@ -256,8 +258,13 @@ input {
     text-align: center;
   }
   input[type="range"] {
-    width: 100%; /* so it fits mobile screen */
-    background: #1a1d24;
+    -webkit-appearance: none; /* remove default */
+    appearance: none;
+    height: 6px;
+    background-color: #1a1d24; /* <-- track color */
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
   }
 
   input[type="range"]::-webkit-slider-thumb {
