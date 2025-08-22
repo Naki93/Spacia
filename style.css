@@ -121,7 +121,7 @@ figcaption {
   width: 500px;
 
   margin: 0 auto; /* centers it horizontally */
-  box-sizing: border-box;
+
   padding: 8%;
 }
 
@@ -227,7 +227,6 @@ input {
     width: 80%; /* fill available width */
     box-sizing: border-box;
     margin: 0 auto;
-    max-width: calc(100% - 40px);
   }
 
   .adjustable-box {
