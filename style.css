@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafcfd;
+  cursor: url("./images/record-button-removebg-preview.png"), auto;
+  color: #1d2c3d;
+  font-family: "" "Geist", sans-serif "";
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Lora", serif;
+  font-size: 35px;
+}
+
+.sub-text {
+  padding: 8px;
+  font-family: "Geist", sans-serif;
+  opacity: 0.8;
+  font-size: medium;
+}
+
+.spacing {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #32404f95;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo ul {
+  color: #32404f;
+  cursor: url("./images/record-button-removebg-preview.png"), auto;
+}
+
+/* .btn {
+  color: #3266d0;
+} */
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+  font-family: "Geist Mono", monospace;
+  font-weight: 400;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-menu ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: #1a1d24;
+  cursor: url("./images/record-button-removebg-preview.png"), auto;
+}
+
+div.adjustable-box {
+  width: 250px;
+  margin: 3%;
+
+  border: 1px solid #1d2c3d;
+  border-radius: 10px;
+  text-align: center;
+  padding: 9%;
+}
+
+#padding-value,
+.padding-display {
+  font-family: "Geist", monospace;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.margin-display {
+  font-family: "Geist", monospace;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+
+  margin-right: 5px;
+}
+
+#margin-value {
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+figcaption {
+  font-family: "Geist", monospace;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 500px;
+  margin: 3%;
+  padding: 8%;
+}
+
+input {
+  cursor: pointer;
+}
+
+.green {
+  color: teal;
+  font-family: "Geist", monospace;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+img {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.info {
+  position: relative;
+}
+
+.red {
+  color: coral;
+  font-family: "Geist", monospace;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+/* Utility classes */
+.grid-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr; /* content wider, padding-display narrower */
+  gap: 20px; /* space between the two */
+  align-items: start; /* keep both aligned at the top */
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content {
+  padding-top: 100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-embed {
+  margin-top: 19px;
+  margin-left: -10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #1a1d24;
+}
+
+.css {
+  padding-left: 5px;
+  padding-bottom: 25px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .grid-layout {
+    grid-template-columns: 1fr; /* just one column */
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    display: block;
+  }
+
+  h1,
+  .sub-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    width: 80%; /* fill available width */
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .adjustable-box {
+    width: 40%; /* wider on small screens */
+
+    box-sizing: border-box; /* ensures padding doesn’t break width */
+  }
+
+  .code-embed {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  input #padding {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 901px) {
+  .wrapper {
+    max-width: 60%; /* leaves 25% margin space */
+    margin: 0 auto;
+  }
+  h1,
+  .sub-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  input[type="range"] {
+    width: 100%; /* so it fits mobile screen */
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+  }
+}

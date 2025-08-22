@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPACIA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo"><a href="index.html">SPACIA</a></div>
+
+        <div class="main-menu">
+          <ul>
+            <li><a class="btn btn-light" href="./index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container1 grid-layout">
+        <div class="content">
+          <br /><br /><br />
+          <h1>Visual Spacing Guide</h1>
+          <p class="sub-text">
+            Adjust the padding and margin to see how
+            <span class="spacing">spacing affects the layout</span>
+          </p>
+          <div class="wrapper">
+            <div class="adjustable-box">Padding</div>
+          </div>
+          <form>
+            <br />
+            <label for="padding">Padding:</label>
+            <input
+              type="range"
+              id="padding"
+              name="padding"
+              min="1"
+              max="50"
+            /><br /><br />
+            <label for="margin">Margin:</label>
+            <input type="range" id="margin" name="margin" min="-25" max="25" />
+          </form>
+        </div>
+        <div class="info">
+          <img src="./images/output-onlinepngtools.png" />
+          <figcaption>Css Code</figcaption>
+          <div class="code-embed">
+            <p class="css">Css</p>
+            <div>
+              <p class="padding-display">
+                <span class="green"> Padding:</span>
+                <span id="padding-value" class="red"></span>
+              </p>
+              <p class="margin-display">
+                <span class="green">Margin:</span>
+                <span id="margin-value" class="red"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
