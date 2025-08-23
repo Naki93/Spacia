@@ -221,7 +221,7 @@ input {
   }
   .info {
     /* I changed this last night padding-top from 100 to 140 */
-    padding-top: 100px;
+    padding-top: 80px;
     /* I changed this last night padding-bottom from 20 to 10 */
     padding-bottom: 20px;
     display: block;
