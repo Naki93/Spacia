@@ -1,7 +1,8 @@
-# Visual Spacing Guide
+# Visual Spacing Guide (Still a work in progress)
 
 I built this project while learning about **DOM manipulation** in JavaScript.  
-I wanted to practice **getting values from input boxes** and **styling elements dynamically**, so I decided to create a simple app that demonstrates how **padding** and **margin** affect layout.
+I wanted to practice **getting values from input boxes** and **styling elements dynamically**, so I decided to create a simple app that demonstrates how **padding** and **margin** affect layout. 
+Though it is still a work in progress 
 
 Since I'm also into design, this was a fun way to combine both learning and creativity.
 
